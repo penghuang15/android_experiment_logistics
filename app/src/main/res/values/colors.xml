@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="listbg">#FFFFFF</color>
+    <color name="black">#ff000000</color>
+    <color name="half_alpha_black">#7f000000</color>
+    <color name="blue">#ffccddff</color>
+    <color name="red">#ffff0101</color>
+    <color name="grey">#ff58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#ff9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="light_grey">#ffe0e0e0</color>
+    <color name="tab_btn">#ffffff</color>
+    <color name="bg_color">#E1E0DE</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="80.0dip"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<RelativeLayout 
+	    android:orientation="horizontal"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="fill_parent"
+	    android:gravity="center"
+	    >  
+		<ImageView  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="60.0dip"  
+		    android:id="@+id/menu_item_imageview"  
+		    android:src="@drawable/cammode_effect" 
+		    android:layout_marginLeft="15dip"
+		    android:clickable="false" 
+		    />  
+		<TextView  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:text="test"  
+		    android:textColor="#000000"  
+		    android:textSize="18sp"
+		    android:textStyle="bold"
+		    android:id="@+id/menu_item_textview"  
+		    android:layout_toRightOf="@id/menu_item_imageview"
+		    android:layout_marginLeft="25dip"
+		    android:layout_marginTop="18dip"
+		    android:clickable="false" 
+		    />  
+		<ImageView  
+		    android:layout_width="wrap_content"  
+		    android:layout_height="wrap_content"  
+		    android:id="@+id/menu_item_go"  
+		    android:src="@drawable/arrow_normal" 
+		    android:layout_alignParentRight="true"
+		    android:layout_marginRight="10.0dip"
+		    android:layout_marginTop="20dip"
+		    android:clickable="false" 
+		    />
+	</RelativeLayout>  
+</LinearLayout>
+
+

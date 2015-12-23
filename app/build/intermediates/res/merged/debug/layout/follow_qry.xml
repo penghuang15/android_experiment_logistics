@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainscreen_bg"
+  	android:gravity="center"
+    >
+	<LinearLayout
+	    android:orientation="vertical" 
+	    style="@style/sub_sys_main_item"
+	    android:gravity="center" android:focusable="true"  
+	    android:focusableInTouchMode="true">
+		<RelativeLayout android:id="@+id/follow_qry_cardsn_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginTop="10.0dip">
+	    	<TextView android:id="@+id/follow_qry_cardsnstr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:paddingLeft="15.0dip"
+	    		android:text="@string/cardcodestr" android:paddingTop="10.0dip"/>
+	    	<EditText android:id="@+id/follow_qry_cardsn"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:background="@drawable/text_edit"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:layout_toRightOf="@id/follow_qry_cardsnstr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/follow_qry_ordernumber_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginTop="10.0dip">
+	    	<TextView android:id="@+id/follow_qry_ordernumberstr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:paddingLeft="15.0dip"
+	    		android:text="@string/ordernumstr" android:paddingTop="10.0dip"/>
+	    	<EditText android:id="@+id/follow_qry_ordernumber"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:background="@drawable/text_edit"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:layout_toRightOf="@id/follow_qry_ordernumberstr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/follow_qry_operate_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginBottom="10.0dip"
+	    	>
+	    	<Button android:id="@+id/follow_qry_operate_qry"
+	    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+	    		android:background="@drawable/btn"
+				android:textSize="@dimen/LargeTextSize"
+				android:textColor="#000000"
+	    		android:text="@string/query"/>
+	    	<Button android:id="@+id/follow_qry_operate_cancel"
+	    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+	    		android:background="@drawable/btn"
+				android:textSize="@dimen/LargeTextSize"
+				android:textColor="#000000"
+	    		android:text="@string/cancel"
+	    		android:layout_toRightOf="@id/follow_qry_operate_qry"/>
+	    </RelativeLayout>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/Android/android_experiment_logistics1/app/src/main/res/layout/follow_qry.xml -->

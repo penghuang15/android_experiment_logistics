@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xunfang.experiment.logistics"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name" >
+
+        <!-- <activity android:name=".LoginActivity" android:theme="@style/titlestyle" -->
+        <!-- android:label="@string/app_name"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.xunfang.experiment.logistics.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xunfang.experiment.logistics.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.UserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.AddUserActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.StationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.AddStationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.AddGoodsTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.AddGoodsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsPackageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsFollowQueryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsFollowActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsInorOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.StationInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.StationOutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.DeliveryMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.DeliveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.SignActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.WaitforDeliveryActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.SystemMgrMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+        <activity
+            android:name="com.xunfang.experiment.logistics.GoodsMgrMain"
+            android:screenOrientation="portrait"
+            android:theme="@style/titlestyle" />
+    </application>
+
+</manifest>

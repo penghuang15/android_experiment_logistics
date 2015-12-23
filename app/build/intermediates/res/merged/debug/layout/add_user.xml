@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainscreen_bg"
+  	android:gravity="center"
+    >
+	<LinearLayout
+	    android:orientation="vertical" 
+	    style="@style/sub_sys_main_item"
+	    android:gravity="center" android:focusable="true"  
+	    android:focusableInTouchMode="true"
+    >
+    	<RelativeLayout android:id="@+id/user_add_type_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginTop="10.0dip" 
+	    	>
+	    	<TextView android:id="@+id/user_add_typestr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/loginnamestr" android:paddingTop="10.0dip"
+	    		/>
+	    	<Button android:id="@+id/user_add_type" android:layout_width="200.0dip"
+	     	  	android:layout_height="wrap_content" android:background="@drawable/spinner_btn_dropdown"
+	     		android:text="@string/choose"
+	     		android:textColor="#000000" android:textSize="16sp"
+	     		android:layout_toRightOf="@id/user_add_typestr"
+	     	  />
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_station_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginTop="10.0dip" 
+	    	>
+	    	<TextView android:id="@+id/user_add_stationstr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/loginnamestr" android:paddingTop="10.0dip"
+	    		/>
+	    	<Button android:id="@+id/user_add_station" android:layout_width="200.0dip"
+	     	  	android:layout_height="wrap_content" android:background="@drawable/spinner_btn_dropdown"
+	     		android:text="@string/choose"
+	     		android:textColor="#000000" android:textSize="16sp"
+	     		android:layout_toRightOf="@id/user_add_stationstr"
+	     	  />
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_loginname_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginTop="10.0dip" 
+	    	>
+	    	<TextView android:id="@+id/user_add_loginnamestr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/loginnamestr" android:paddingTop="10.0dip"
+	    		android:paddingLeft="15.0dip"/>
+	    	<EditText android:id="@+id/user_add_loginname"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:background="@drawable/text_edit"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:layout_toRightOf="@id/user_add_loginnamestr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_password_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	>
+	    	<TextView android:id="@+id/user_add_passwordstr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/passwordstr" android:paddingTop="10.0dip"
+	    		android:paddingLeft="30.0dip"/>
+	    	<EditText android:id="@+id/user_add_password"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:background="@drawable/text_edit"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:password="true"
+	    		android:layout_toRightOf="@id/user_add_passwordstr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_repassword_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	>
+	    	<TextView android:id="@+id/user_add_repasswordstr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/repasswordstr" android:paddingTop="10.0dip"
+	    		/>
+	    	<EditText android:id="@+id/user_add_repassword"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:background="@drawable/text_edit"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:password="true"
+	    		android:layout_toRightOf="@id/user_add_repasswordstr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_username_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	>
+	    	<TextView android:id="@+id/user_add_usernamestr"
+	    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:text="@string/usernamestr" android:paddingTop="10.0dip"
+	    		android:paddingLeft="15.0dip"
+	    		/>
+	    	<EditText android:id="@+id/user_add_username"
+	    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+	    		android:textColor="#000000" android:textSize="16sp"
+	    		android:singleLine="true" android:maxLength="20"
+	    		android:background="@drawable/text_edit"
+	    		android:layout_toRightOf="@id/user_add_usernamestr"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:id="@+id/user_add_operate_module"
+	    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	    	android:layout_marginBottom="10.0dip"
+	    	>
+	    	<Button android:id="@+id/user_add_save"
+	    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+	    		android:background="@drawable/btn"
+				android:textSize="@dimen/LargeTextSize"
+				android:textColor="#000000"
+	    		android:text="@string/save"/>
+	    	<Button android:id="@+id/user_add_cancel"
+	    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+	    		android:background="@drawable/btn"
+				android:textSize="@dimen/LargeTextSize"
+				android:textColor="#000000"
+	    		android:text="@string/cancel"
+	    		android:layout_toRightOf="@id/user_add_save"/>
+	    </RelativeLayout>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/D:/Android/android_experiment_logistics1/app/src/main/res/layout/add_user.xml -->

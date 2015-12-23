@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" android:focusable="true"  
+    android:focusableInTouchMode="true"
+    >
+    <RelativeLayout android:id="@+id/name_module"
+    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+    	android:layout_marginTop="10.0dip" 
+    	>
+    	<TextView android:id="@+id/loginnamestr"
+    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+    		android:textColor="#000000" android:textSize="16sp"
+    		android:text="@string/loginnamestr" android:paddingTop="10.0dip"/>
+    	<EditText android:id="@+id/loginname"
+    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+    		android:textColor="#000000" android:textSize="16sp"
+    		android:singleLine="true" android:maxLength="20"
+    		android:background="@drawable/text_edit"
+    		android:layout_toRightOf="@id/loginnamestr"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/password_module"
+    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+    	>
+    	<TextView android:id="@+id/passwordstr"
+    		android:layout_width="wrap_content" android:layout_height="wrap_content"
+    		android:textColor="#000000" android:textSize="16sp"
+    		android:text="@string/passwordstr" android:paddingTop="10.0dip"
+    		android:paddingLeft="15.0dip"/>
+    	<EditText android:id="@+id/password"
+    		android:layout_width="200.0dip" android:layout_height="wrap_content"
+    		android:textColor="#000000" android:textSize="16sp"
+    		android:background="@drawable/text_edit"
+    		android:singleLine="true" android:maxLength="20"
+    		android:password="true"
+    		android:layout_toRightOf="@id/passwordstr"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/operate_module"
+    	android:layout_width="wrap_content" android:layout_height="wrap_content"
+    	android:layout_marginBottom="10.0dip"
+    	>
+    	<Button android:id="@+id/login"
+    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+    		android:background="@drawable/btn"
+			android:textSize="@dimen/LargeTextSize"
+			android:textColor="#000000"
+    		android:text="@string/login"/>
+    	<Button android:id="@+id/cancel"
+    		android:layout_width="70.0dip" android:layout_height="wrap_content"
+    		android:background="@drawable/btn"
+			android:textSize="@dimen/LargeTextSize"
+			android:textColor="#000000"
+    		android:text="@string/cancel"
+    		android:layout_toRightOf="@id/login"/>
+    </RelativeLayout>
+</LinearLayout>

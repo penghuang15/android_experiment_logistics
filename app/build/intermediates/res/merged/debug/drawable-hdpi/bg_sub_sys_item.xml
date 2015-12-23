@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:state_selected="true">
+		<shape android:shape="rectangle">
+		    <solid android:color="#FFC300" />
+		    <corners android:radius="4.0dip" />
+		    <stroke android:width="1.0dip" android:color="#85000000" />
+		</shape>
+	</item>
+    <item android:state_focused="true">
+    	<shape android:shape="rectangle">
+		    <solid android:color="#FFC300" />
+		    <corners android:radius="4.0dip" />
+		    <stroke android:width="1.0dip" android:color="#85000000" />
+		</shape>
+    </item>
+    <item android:state_pressed="true">
+    	<shape android:shape="rectangle">
+		    <solid android:color="#FFC300" />
+		    <corners android:radius="4.0dip" />
+		    <stroke android:width="1.0dip" android:color="#85000000" />
+		</shape>
+    </item>
+    <item>
+    	<shape android:shape="rectangle">
+		    <solid android:color="#50747474" />
+		    <corners android:radius="4.0dip" />
+		    <stroke android:width="1.0dip" android:color="#85000000" />
+		</shape>
+    </item>
+	
+</selector>
+<!-- From: file:/D:/Android/android_experiment_logistics1/app/src/main/res/drawable-hdpi/bg_sub_sys_item.xml -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="sub_sys_main_item">
+        <item name="android:background">@drawable/bg_sub_sys_main_common</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20.0dip</item>
+    </style>
+    <style name="sub_sys_item">
+        <item name="android:background">@drawable/bg_sub_sys_item</item>
+        <item name="android:layout_width">120.0dip</item>
+        <item name="android:layout_height">90.0dip</item>
+        <item name="android:layout_margin">10.0dip</item>
+    </style>
+    <style name="TabButton">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/tab_btn</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">0.70000005dip</item>
+        <item name="android:layout_marginRight">0.70000005dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+</resources>
